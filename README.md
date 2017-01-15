@@ -2,9 +2,9 @@
 
 <img src="logo.png" align="right"/>
 
-[Homepage](http://trans.github.com/neapolitan.cr/) |
-[Development](http://github.com/trans/neapolitan.cr) |
-[Report Issue](http://github.com/trans/neapolitan.cr/issues)
+[Homepage](http://openbohemians.github.com/Neapolitan.jl/) |
+[Development](http://github.com/openbohemians/Neapolitan.jl) |
+[Report Issue](http://github.com/openbohemians/Neapolitan.jl/issues)
 
 ## DESCRIPTION
 
@@ -62,24 +62,20 @@ This will work just like the prior example.
 ## Installation
 
 
-Add this to your application's `shard.yml`:
-
-```yaml
-dependencies:
-  neapolitan:
-    github: trans/neapolitan.cr
+```
+Pkg.add("Neapolitan")
 ```
 
 
 ## Development
 
-If you are an author of a Crystal-based markup format, please contact us via
-this project's Github issues.
+If you are an author of a Julia-based markup format that you think would be a good
+fit, please contact us via this project's Github issues.
 
 
 ## Contributing
 
-1. Fork it ( https://github.com/trans/neapolitan.cr/fork )
+1. Fork it (https://github.com/openbohemians/Neapolitan.jl/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
